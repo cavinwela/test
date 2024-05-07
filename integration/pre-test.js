@@ -1,6 +1,6 @@
 describe('Pre Enrollment', () => {
   before(() => {
-    cy.login("administrator", "wela.online");
+    cy.login("administrator", "school_password");
   });
 
   it('access pre enrollment', function() {
